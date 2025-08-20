@@ -8,7 +8,7 @@ extern fn void ttf_quit() @extern("TTF_Quit");
 
 alias TTF_Font=void;
 
-String text="申し訳ございませんがたくさんあります。¡Hola Mundo!Γειά σου Κόσμε!Привет, мир!";
+String text="Hello World!¡Hola Mundo!Γειά σου Κόσμε!Привет, мир!こんにちは世界！你好世界！";
 String font_name="KosugiMaru-Regular.ttf";
 
 fn void main()
@@ -77,4 +77,5 @@ fn void main()
 
         sdl3::render_present(renderer);
     }
+
 }
